@@ -1,0 +1,24 @@
+Unit Tests:
+A function called "multiplication" that returns the product of the two input numbers.
+- Expect multiplication(2,3) to be a number
+- Expect multiplication(2,3) to be 6
+- Expect multiplication(a,3) to be an error
+
+A function called "concatOdds" takes two arrays of integers as arguments. It should return a single array that only contains the odd numbers, in ascending order, from both of the arrays.
+Example: concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1])
+...should result in [-1, 1, 3, 9, 15]
+- Expect [3,4,2] , [7,4,1] to be a number
+- Expect [3,4,2] , [7,4,1] to be a [1,3,7]
+- Expect [0] , [0,2,4,0,] to be []
+- Expect ['9',0], [0,2] to be an error
+- Expect [9, 9, 9, 3, 0], [9] to be [3,9]
+
+
+Funtional tests for shopping cart
+- When a user clicks "checkout" as guest, they should be prompted to ask whether they want to create an account 
+- When a user clicks 'checkout as a guest', they should be redirected to the payments page
+- when a user clicks 'sign up', they should be presented a sign-up page
+- When a user clicks 'sign in', they should be presented a sign-in page
+- When a user clicks "Log In" but has filled out an incorrect login or password, they should be shown an error and prompted to sign up if they have not yet.
+- When a user clciks 'checkout', they should see items on the cart
+- When the cart is empty, a user see a user friendly message to add items to the cart
